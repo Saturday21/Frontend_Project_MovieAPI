@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+.container {
+    text-align: center;
+    background-color: gray;
+}
+
+h1,
+label,
+input,
+button {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+
+#resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#searchContainer {
+    position: sticky;
+    top: 0;
+    background-color: grey;
+    z-index: 1000;
+}
